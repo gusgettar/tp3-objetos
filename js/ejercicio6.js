@@ -53,10 +53,10 @@ libro2.mostrarLibro()
 
 if(libro1.NroPaginas>libro2.NroPaginas){
 
-    document.write(`<p> el libro ${libro1.Titulo} tiene ${libro1.NroPaginas-libro2.NroPaginas} páginas más.</p>`)
+    document.write(`<p> el libro ${libro1.Titulo} tiene ${libro1.NroPaginas-libro2.NroPaginas} páginas más que el libro ${libro2.Titulo}</p>`)
 }
 else{
-    document.write(`<p> el libro ${libro2.Titulo} tiene ${libro2.NroPaginas-libro1.NroPaginas} páginas más.</p>`)
+    document.write(`<p> el libro ${libro2.Titulo} tiene ${libro2.NroPaginas-libro1.NroPaginas} páginas más que el libro ${libro1.Titulo}</p>`)
 
 }
 
